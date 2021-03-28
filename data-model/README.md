@@ -1,34 +1,66 @@
 # doctest — Test interactive Python examples¶
 
 
+# Special method
 
-category method names
-string/bytes representation __repr__, __str__, __format__, __bytes__
-conversion to number __abs__, __bool__, __complex__, __int__, __float__, __hash__, __in
-dex__
-emulating collections __len__, __getitem__, __setitem__, __delitem__, __contains__
-iteration __iter__, __reversed__, __next__
-emulating callables __call__
-context management __enter__, __exit__
-instance creation and destruction __new__, __init__, __del__
-attribute management __getattr__, __getattribute__, __setattr__, __delattr__, __dir__
-attribute descriptors __get__, __set__, __delete__
-class services __prepare__, __instancecheck__, __subclasscheck__
-Table 1-2. Special method names for operators.
-category method names and related operators
-unary numeric operators __neg__ -, __pos__ +, __abs__ abs()
-rich compartison operators __lt__ >, __le__ <=, __eq__ ==, __ne__ !=, __gt__ >, __ge__ >=
-arithmetic operators __add__+,__sub__-,__mul__*,__truediv__/,__floordiv__//,__mod__
-%, __divmod__ divmod() , __pow__ ** or pow(), __round__ round()
-reversed arithmetic operators __radd__, __rsub__, __rmul__, __rtruediv__, __rfloordiv__,
-__rmod__, __rdivmod__, __rpow__
-augmented assignment
-arithmetic operators
-__iadd__, __isub__, __imul__, __itruediv__, __ifloordiv__, __im
-od__, __ipow__
-bitwise operators __invert__ ~, __lshift__ <<, __rshift__ >>, __and__ &, __or__ |,
-__xor__ ^
-reversed bitwise operators __rlshift__, __rrshift__, __rand__, __rxor__, __ror__
-augmented assignment bitwise
-operators
-__ilshift__, __irshift__, __iand__, __ixor__, __ior__
+
+## **string/bytes representation:**
+
+``` __repr__, __str__, __format__, __bytes__ ```
+
+## **Conversion to number:**
+
+ ```__abs__, __bool__, __complex__, __int__, __float__, __hash__, __index__```
+
+## **Emulating collections:**
+ ```__len__, __getitem__, __setitem__, __delitem__, __contains__```
+## **Iteration**
+
+``` __iter__, __reversed__, __next__```
+
+## **Emulating callables:**
+``` __call__```
+
+## **Context management:**
+``` __enter__, __exit__```
+
+## **Instance creation and destruction:**
+``` __new__, __init__, __del__```
+
+## **Attribute management:**
+``` __getattr__, __getattribute__, __setattr__, __delattr__, __dir__```
+
+## **Attribute descriptors:**
+``` __get__, __set__, __delete__```
+
+## **Class services:**
+``` __prepare__, __instancecheck__, __subclasscheck__```
+
+# Special method names for operators.
+
+## **Unary numeric operators:**
+``` __neg__ -, __pos__ +, __abs__ abs()```
+
+## **Rich compartison operators:**
+``` __lt__ >, __le__ <=, __eq__ ==, __ne__ !=, __gt__ >, __ge__ >=```
+
+## **Arithmetic operators:**
+```__add__+,__sub__-,__mul__*,__truediv__/,__floordiv__//,__mod__%, __divmod__ divmod() , __pow__ ** or pow(), __round__ round()```
+
+## **Reversed arithmetic operators:**
+``` __radd__, __rsub__, __rmul__, __rtruediv__, __rfloordiv__,__rmod__, __rdivmod__, __rpow__```
+
+# **Augmented assignment:**
+## **Arithmetic operators:**
+```__iadd__, __isub__, __imul__, __itruediv__, __ifloordiv__, __imod__, __ipow__```
+
+## **Bitwise operators:**
+``` __invert__ ~, __lshift__ <<, __rshift__ >>, __and__ &, __or__ |,__xor__```
+ ^
+## **Reversed bitwise operators:**
+``` __rlshift__, __rrshift__, __rand__, __rxor__, __ror__```
+
+## **Augmented assignment bitwise operators:**
+
+```__ilshift__, __irshift__, __iand__, __ixor__, __ior__```
+
