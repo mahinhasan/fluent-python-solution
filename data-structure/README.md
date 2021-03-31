@@ -20,3 +20,9 @@ Note: Container sequences hold references to the objects,flat sequences physical
 
 
 ![](image.png)
+
+### **Tuple as record**
+
+#### tuple vs list
+
+![](tuple.png)
